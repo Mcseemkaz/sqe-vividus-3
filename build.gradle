@@ -8,4 +8,5 @@ apply from: "${buildSystemPath}/vividus-test-project.gradle"
 dependencies {
     implementation platform('org.vividus:vividus-bom:0.6.18')
     implementation('org.vividus:vividus')
+    implementation('org.vividus:vividus-plugin-web-app')
 }
